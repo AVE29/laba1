@@ -75,19 +75,20 @@ $(document).ready(function() {
 			`<div class="row">
 			<input readonly class="product"></input>
 			<input readonly class="amount"></input>
-			</div>`      q
+			</div>`      
+q
 			) */
 	
 			switch(i) {
 				case 0:
-					//var t = "Night City";
+					//var t = "MB E-klass";
 					document.querySelector('.cart-body').insertAdjacentHTML(
 			'afterbegin',
 			`<div class="row">
 			<input readonly class="product0"></input>
 			<input readonly class="amount0"></input>
 			</div>`)
-			$('.product0').val("Night City");
+			$('.product0').val("MB E-klass");
 			$('.amount0').val(cart[i]);
 					break;
 
@@ -99,43 +100,43 @@ $(document).ready(function() {
 			<input readonly class="product1"></input>
 			<input readonly class="amount1"></input>
 			</div>`)
-			$('.product1').val("Lake");
+			$('.product1').val("MB V-klass");
 			$('.amount1').val(cart[i]);
 					break;
 		
 				case 2:
-					//var t = "Laski";
+					//var t = "MB G 63AMG";
 					document.querySelector('.cart-body').insertAdjacentHTML(
 			'afterbegin',
 			`<div class="row">
 			<input readonly class="product2"></input>
 			<input readonly class="amount2"></input>
 			</div>`)
-			$('.product2').val("Laski");
+			$('.product2').val("MB G 63AMG");
 			$('.amount2').val(cart[i]);
 					break;
 			
 				case 3:
-					//var t = "Forest One";
+					//var t = "MB AMG GT";
 					document.querySelector('.cart-body').insertAdjacentHTML(
 			'afterbegin',
 			`<div class="row">
 			<input readonly class="product3"></input>
 			<input readonly class="amount3"></input>
 			</div>`)
-			$('.product3').val("Forest One");
+			$('.product3').val("MB AMG GT");
 			$('.amount3').val(cart[i]);
 					break;
 			
 				case 4:
-					//var t = "Forest Two";
+					//var t = "MB S 63 AMG";
 					document.querySelector('.cart-body').insertAdjacentHTML(
 			'afterbegin',
 			`<div class="row">
 			<input readonly class="product4"></input>
 			<input readonly class="amount4"></input>
 			</div>`)
-			$('.product4').val("Forest Two");
+			$('.product4').val("MB S 63 AMG");
 			$('.amount4').val(cart[i]);
 					break;
 
